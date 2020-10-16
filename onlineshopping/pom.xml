@@ -16,6 +16,12 @@
 
 
 	<dependencies>
+		<!-- Linked backend project -->
+		<dependency>
+			<groupId>net.ak</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- Java EE API 70.0 -->
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
@@ -39,7 +45,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		<!-- JSTL Dependency -->		
+		<!-- JSTL Dependency -->
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
